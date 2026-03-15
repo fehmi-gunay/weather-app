@@ -1,5 +1,11 @@
 # Weather App
 
+## Live Demo
+[View Live Demo](https://fehmi-gunay.github.io/weather-app/)
+
+## Screenshot
+![Weather App Screenshot](weather-app.png)
+
 A simple weather application built with HTML, CSS and JavaScript using the Open-Meteo API.
 
 ## Features
