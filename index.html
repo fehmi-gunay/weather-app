@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="app.css">
+
+</head>
+
+<body>
+
+    <div id="mainCard">
+
+        <h1 id="title">Weather App</h1>
+        <p id="title2">Bir şehir girip hava durumunu ara</p>
+        <div class="searchBox">
+            <label for="input">Şehir:</label>
+            <input type="text" placeholder="Şehir gir..." id="input">
+            <button id="btn">Ara</button>
+        </div>
+
+
+        <p id="error"></p>
+
+        <div id="cityCard">
+            <p id="city" class="info"></p>
+            <h3 id="temperature" class="info"></h3>
+            <p id="weather" class="info"></p>
+            <p id="feelsLike" class="info"></p>
+            <p id="humidity" class="info"></p>
+            <p id="windSpeed" class="info"></p>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4facfe;
+}
+
+#mainCard {
+    width: 500px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+#mainCard:hover {
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+}
+
+#title {
+    color: #2563eb;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#title2 {
+    margin-bottom: 40px;
+    color: #555;
+}
+
+#input {
+    padding: 8px 12px;
+    border-radius: 7px;
+    background-color: white;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#input:focus {
+    border-color: #2563eb;
+}
+
+#btn {
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+}
+
+#btn:hover {
+    background-color: #1d4ed8;
+}
+
+#error {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+#cityCard {
+    background-color: #f8fbff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: start;
+    display: none;
+}
+
+.info {
+    padding: 5px;
+}
+
+#temperature {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#weather {
+    padding-top: 20px;
+    color: #555;
+}
+
+#feelsLike {
+    color: #444;
+}
+
+#humidity {
+    color: #444;
+}
+
+#windSpeed {
+    color: #444;
+}
